@@ -15,5 +15,8 @@
   },
   "dependencies": {
     "@dcl/ui-scene-utils": "^1.7.1"
-  }
+  },
+  "bundleDependencies": [
+    "@dcl/ui-scene-utils"
+  ]
 }
