@@ -3,7 +3,7 @@
     "outFile": "./bin/game.js",
     "allowJs": true,
     "strict": true,
-        "paths": {
+    "paths": {
       "@dcl/ecs-scene-utils": [
         "node_modules/@dcl/ecs-scene-utils/dist/index.d.ts"
       ],
@@ -11,10 +11,10 @@
         "node_modules/@dcl/ui-scene-utils/dist/index.d.ts"
       ]
     },
-
-        "baseUrl": "."
-
+    "baseUrl": "."
   },
-  "include": ["src/**/*.ts"],
+  "include": [
+    "src/**/*.ts"
+  ],
   "extends": "./node_modules/decentraland-ecs/types/tsconfig.json"
 }
